@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <script type='module' src="popup.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cute+Font&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+
+    <div class="notification">
+      <div id="notification_content">Welcome</div>
+    </div>
+
+    <!-- <div class="togglePanel">
+      <button id="toggle"></button>
+    </div> -->
+
+    <div class="topBar">
+      <img class='logoImg' src="../../assets/images/logo.jpeg" alt="logo_cat">
+      <span class="welcome_msg">Mood Extension</h3>
+        <button id="toggle"></button>
+    </div>
+
+
+    <div class="keywordPanel">
+      <label for="elementsList">Target Elements (seperated by comma)</label>
+      <input type="text" id="elementsList" name="elementsList" /><br /><br />
+    </div>
+
+    <div class="colorPanel">
+      <div>
+        <label for="defaultColor">Default</label>
+        <input
+          class="colorInput"
+          type="color"
+          id="defaultColor"
+          name="defaultColor"
+          value="#ff0000"
+        />
+      </div>
+      <div>
+        <label for="neutralColor">Neutral</label>
+        <input
+          class="colorInput"
+          type="color"
+          id="neutralColor"
+          name="neutralColor"
+          value="#ff0000"
+        />
+      </div>
+      <div>
+        <label for="positiveColor">Positive</label>
+        <input
+          class="colorInput"
+          type="color"
+          id="positiveColor"
+          name="positiveColor"
+          value="#ff0000"
+        />
+      </div>
+      <div>
+        <label for="negativeColor">Negative</label>
+        <input
+          class="colorInput"
+          type="color"
+          id="negativeColor"
+          name="negativeColor"
+          value="#ff0000"
+        />
+      </div>
+    </div>
+    <div class="extraSettings">
+      <label for="quotesMode">Overide with quotes</label>
+      <input type="checkbox" name="quotesMode" id="quotesMode">
+    </div>
+    <div class="statsPanel">
+      <div id="quotesDate">Quotes was updated on</div>
+    </div>
+    <div class="controlPanel">
+      <button id="fetch">Fetch Quotes</button>
+      <button id="reset">Reset</button>
+      <button id="update">Update</button>
+    </div>
+  </body>
+</html>

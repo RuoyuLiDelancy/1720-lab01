@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+
+  "name": "PageWithMood",
+  "description": "Reflecting the mood of the webpage base on text examination of web content",
+  "version": "1.0",
+  "icons": {
+    "128": "assets/images/128.png",
+    "48": "assets/images/48.png",
+    "32": "assets/images/32.png",
+    "16": "assets/images/16.png"
+  },
+
+  "browser_action": {
+    "default_icon": "assets/images/16.png",
+    "default_popup": "components/popup/popup.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["components/mood.js"]
+    }
+  ],
+
+  "background": {
+    "page": "components/background/background.html"
+  },
+
+  "permissions": ["storage"]
+}

@@ -1,0 +1,182 @@
+body {
+  background: rgb(35, 36, 66);
+  font-family: "Cute Font", cursive;
+  font-size: 20px;
+  color: white;
+  width: 400px;
+}
+
+.togglePanel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+#toggle {
+  width: 15px;
+  height: 15px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background: #ee5934;
+  margin: 8px;
+  z-index: -1;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 40%;
+  height: 10%;
+  background: rgb(84, 94, 236);
+  display: none;
+  text-align: center;
+  z-index: 1;
+}
+
+.topBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.welcome_msg {
+  margin-left: 10px;
+  letter-spacing: 2px;
+  color: pink;
+}
+.logoImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.keywordPanel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#elementsList {
+  background: rgb(60, 65, 133);
+  border: 1px solid transparent;
+  border-radius: 8px;
+  margin: 5px;
+  text-align: center;
+  color: pink;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-family: "Cute Font", cursive;
+  font-size: 20px;
+}
+
+.colorPanel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.colorPanel div {
+  color: pink;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.colorPanel div label {
+  margin: 5px;
+}
+
+.colorInput {
+  -webkit-appearance: none;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.colorInput::-webkit-color-swatch {
+  border: none;
+  border-radius: 10px;
+  padding: 0;
+}
+.colorInput::-webkit-color-swatch-wrapper {
+  border: none;
+  border-radius: 10px;
+  padding: 0;
+}
+
+.controlPanel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.extraSettings {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: pink;
+}
+
+input[type="checkbox"] {
+  transform: scale(2);
+  margin-left: 20px;
+  color: rgb(102, 102, 223);
+}
+
+.statsPanel {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(102, 102, 223);
+}
+
+.controlPanel button {
+  width: 100px;
+  margin: 20px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  text-align: center;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-family: "Cute Font", cursive;
+  font-size: 20px;
+}
+
+#reset {
+  background: rgb(192, 62, 62);
+}
+
+#update {
+  background: rgb(124, 76, 235);
+}
+
+#fetch {
+  background: rgb(97, 87, 248);
+}
+
+#reset:hover {
+  background: rgb(115, 214, 245);
+}
+#update:hover {
+  background: rgb(115, 214, 245);
+}
+#fetch:hover {
+  background: rgb(115, 214, 245);
+}
