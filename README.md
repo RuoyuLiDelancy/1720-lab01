@@ -86,6 +86,10 @@ In this example, the extension monitored the 'span' and 'p' elements of the page
 <img width="935" alt="m-example-text" src="https://user-images.githubusercontent.com/98135779/150696415-59110e2f-bfe7-46be-b694-b2d09019cba1.png">
 
 
+## References
 
-
+| Resource Type | Source| Website |
+|--|--|--|
+| Quotes API | zenquotes.io | https://zenquotes.io/ |
+| Word base | Minqing Hu and Bing Liu. "Mining and Summarizing Customer Reviews."  ;       Proceedings of the ACM SIGKDD International Conference on Knowledge  ;       Discovery and Data Mining (KDD-2004), Aug 22-25, 2004, Seattle,  ;       Washington, USA, | https://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html |
 
